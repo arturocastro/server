@@ -19,7 +19,7 @@ func main() {
 		root = flag.String("root", "", "Root directory to serve")
 		user = flag.String("user", "admin", "Username for login")
 		pass = flag.String("pass", "123456", "Password for login")
-		port = flag.Int("port", 2121, "Port")
+		port = flag.Int("port", 21, "Port")
 		host = flag.String("host", "localhost", "Port")
 	)
 	flag.Parse()
